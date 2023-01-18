@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(17, 15, 6);
+
+}
+
+li {
+    font-size: 25px;
+}
+
+#title{
+    padding-left: 5%;
+    font-size: 35px;;
+}
+
+.menuName{
+    font-size:30px;
+}
+
+.menuPrice{
+    font-size: 20px;
+    float: right;
+    padding-right: 15%;
+
+}
+
+.menuDesc{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.removeButton{
+    margin-left: 5%;
+    border-color: rgb(77, 51, 1);
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 3px;
+    background-color: rgb(18, 18, 22);;
+    color: rgb(255, 179, 37);
+}
+
+.cardapio{
+    width: 40%;
+    background: rgb(18, 10, 31);
+    color: rgb(255, 179, 37);
+    float: left;
+    border-radius: 8px;
+}
+.formulario{
+    color: rgb(255, 179, 37);
+    padding-right: 2%;
+    float: right;
+}
+
+.formItem{
+    border-style: solid;
+    border-color: rgb(27, 7, 51);
+    color: rgb(255, 179, 37);
+    background-color: rgb(18, 18, 22);;
+}
+
+
+/* #description{
+    width:200px;
+    height: 100px;
+} */

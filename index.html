@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="cardapio">
+        <h1 id="title">Cárdapio</h1>
+        <ul class="drinks"></ul>
+    </section>
+    <section class="formulario">
+        <form>
+            <b style="font-size: 25px;">Adicionar Itens ao cárdapio</b>
+            <p>
+                <label id="nameLabel">Nome do Item</label>
+                <br>
+                <input class="formItem" id="name"  type="text">
+            </p>
+            <p>
+                <label id="priceLabel"> Valor do Item </label>
+                <br>
+                <input class="formItem" id="price" type="number" min="0.10" step="0.1" value="0.0" placeholder="$0,00">
+            </p>
+            <p>
+                <label id="descriptionLabel"> Descrição </label>
+                <br>
+                <textarea class="formItem" id="description" type="text" rows="4" cols="25" placeholder="Descrição do item"></textarea>
+            </p>
+            <p>
+                <button  class="submit">Adicionar item</button>
+            </p>
+        </form>
+    </section>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
